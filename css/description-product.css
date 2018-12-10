@@ -3,7 +3,23 @@
   color: #fff;
 }
 
-.description-product > .title {
+.description-product > .wrap-title {
+  position: relative;
+}
+
+.description-product > .wrap-title .item.-heart,
+.description-product > .wrap-title .title
+{
+  display: inline-block;
+}
+
+.description-product > .wrap-title .item.-heart {
+  position: absolute;
+  transform: translateX(calc(-100% - 46px));
+  top: 10px
+}
+
+.description-product  .title {
   font-size: 1.56em;
   margin-bottom: 50px;
 }
