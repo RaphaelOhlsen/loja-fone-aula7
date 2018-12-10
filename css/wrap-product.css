@@ -5,6 +5,10 @@
   position: relative;
 }
 
+.wrap-product .description-product .item.-star {
+  cursor: pointer;
+}
+
 .wrap-product > .buttons {
   position: absolute;
   bottom: 0;

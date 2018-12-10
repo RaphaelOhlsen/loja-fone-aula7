@@ -11,6 +11,7 @@
   line-height: 60px;
   box-sizing: border-box;
   border: none;
+  cursor: pointer;
 }
 
 .button-store.-second {
